@@ -1,6 +1,6 @@
 # Olivier Boukili
 
-*Cloud engineer with a strong sysadmin background with a passion for DevSecOps culture.*
+*Cloud engineer with a strong sysadmin background and a passion for DevSecOps culture.*
 
 ---
 

@@ -76,5 +76,6 @@
 
 *2019*
   * [Vault KV updater (Go)](https://gitlab.com/maltcommunity/public/vault-kv-updater)
-  * [Kustomize Sops Plugin (Go)](https://gitlab.com/maltcommunity/public/sopsdecoder)
+  * [Kustomize Checksumer Plugin (Go)](https://gitlab.com/maltcommunity/public/checksumer)
+  * [Kustomize SopsDecoder Plugin (Go)](https://gitlab.com/maltcommunity/public/sopsdecoder)
 

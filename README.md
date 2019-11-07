@@ -68,6 +68,7 @@
 ### Publications
 
 *2019*
+  * [DevOps — Retour sur un downtime Redis, Kubernetes en production](https://medium.com/nerds-malt/https-medium-com-nerds-malt-devops-retour-sur-un-downtime-redis-kubernetes-en-production-8cd5bfcc53d) (French)
   * [A GCP / Kubernetes production migration retrospective](https://medium.com/nerds-malt/a-gcp-kubernetes-production-migration-retrospective-part-1-e3e35096073a)
 
 ---

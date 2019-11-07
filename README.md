@@ -14,6 +14,7 @@
 **Services**
 * Kubernetes
 * Vault
+* ArgoCD
 * Consul
 * Traefik
 * Prometheus

@@ -39,14 +39,15 @@
 
 * *2017-present* **Malt Community / Platform Tech Lead**
     * **Milestones**:
-       * Planned and realized the migration of Malt's applications and databases from a bare metal infrastructure to Google Cloud Platform (GCE and GKE).
+      * Planned and realized the migration of Malt's applications and databases from a bare metal infrastructure to Google Cloud Platform (GCE and GKE).
+      * Progressively migrated the Ansible historical codebase to a Terraform-managed codebase.
+      * Implemented CI/CD for the infrastructure side of things using Gitlab pipelines.
       * Automated and secured all internal application traffic using short-lived dynamic certificates from Hashicorp Vault PKI.
+      * Implemented GitOps continuous delivery flows for every Malt application using ArgoCD.
       * Integrated Vault as a secure Spring configuration server for every Spring application.
       * Worked continuously with the security team to achieve optimal DevSecOps practices.
-      * Progressively migrated the Ansible historical codebase to a Terraform managed infrastructure codebase.
       * Introduced high availability features on all applications (Spring Boot) and databases (MongoDB, Elasticsearch, Redis) using Hashicorp Consul.
       * Java 8+11 applications G1GC ideal performance tuning for Kubernetes.
-      * Working on Kubernetes-native continuous delivery solutions (Weave Flux, ArgoCD).
 
 * *2014-2017* **Sogelink / Sysadmin**
   * **Milestones**:

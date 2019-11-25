@@ -78,8 +78,8 @@
 ### Open source contributions
 
 *2019*
-  * [Vault Discovery (Go)](https://gitlab.com/maltcommunity/public/vault-discovery)
-  * [Vault KV updater (Go)](https://gitlab.com/maltcommunity/public/vault-kv-updater)
-  * [Kustomize Checksumer Plugin (Go)](https://gitlab.com/maltcommunity/public/checksumer)
-  * [Kustomize SopsDecoder Plugin (Go)](https://gitlab.com/maltcommunity/public/sopsdecoder)
+  * [Vault Discovery (Go)](https://github.com/oboukili/vault-discovery)
+  * [Vault KV updater (Go)](https://github.com/oboukili/vault-kv-updater)
+  * [Kustomize Checksumer Plugin (Go)](https://github.com/oboukili/checksumer)
+  * [Kustomize SopsDecoder Plugin (Go)](https://github.com/oboukili/sopsdecoder)
 

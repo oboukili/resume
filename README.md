@@ -43,9 +43,9 @@
    * **Milestones**:
      * Designed and implemented a 'scale to 0', fast, and highly concurrent CI with GitlabCI using GKE preemptible nodes for the whole company's projects (Golang / NodeJS).
      * Introduced and migrated the legacy reverse proxy solution to Solo.io's Gloo API Gateway.
-     * Fully manage the whole platform, from the platform to the business apps through the CI/CD, with Terraform/GitlabCI/ArgoCD/Kustomize using a commmon codebase.
+     * Fully manage the whole platform, from the infrastructure to the business apps through the CI/CD, with Terraform/GitlabCI/ArgoCD/Kustomize using a commmon codebase.
      * Secured GCP/GKE platform by banishing static credentials (GKE workload identity up to production), introduced private GKE clusters.
-     * Currently working on Open Policy Agent business rules coupling with Kubernetes Service Meshes.
+     * Currently working on Open Policy Agent business rules coupling with Kubernetes Service Meshes, and dynamic Vault secrets.
 
 * *2017-2020* **Malt Community / Platform Tech Lead**
     * **Milestones**:

@@ -39,7 +39,7 @@
 
 ### Experience
 
-* *2020-present* **Keplr / Principal Cloud Engineer**
+* *2020-present* **Keplr / Cloud Engineer**
    * **Milestones**:
      * Designed and implemented a 'scale to 0', fast, and highly concurrent CI with GitlabCI using GKE preemptible nodes for the whole company's projects (Golang / NodeJS).
      * Introduced and migrated the legacy reverse proxy solution to Solo.io's Gloo API Gateway.

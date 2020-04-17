@@ -96,3 +96,5 @@
   * [Kustomize Checksumer Plugin (Go)](https://github.com/oboukili/checksumer)
   * [Kustomize SopsDecoder Plugin (Go)](https://github.com/oboukili/sopsdecoder)
 
+*2016*
+  * [Ansible apache2_mod_proxy module (Python)](https://docs.ansible.com/ansible/latest/modules/apache2_mod_proxy_module.html)

@@ -13,6 +13,7 @@
 
 **Services**
 * Kubernetes
+* Linkerd 2 Service Mesh
 * Vault
 * ArgoCD
 * Consul

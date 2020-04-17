@@ -19,6 +19,7 @@
 * Traefik
 * Prometheus
 * Sensu
+* Gloo API Gateway
 * Kong API gateway
 * Jaeger Opentracing
 
@@ -37,7 +38,15 @@
 
 ### Experience
 
-* *2017-present* **Malt Community / Platform Tech Lead**
+* *2020-present* **Keplr / Principal Cloud Engineer**
+   * **Milestones**:
+     * Designed and implemented a 'scale to 0', fast, and highly concurrent CI with GitlabCI using GKE preemptible nodes for the whole company's projects (Golang / NodeJS).
+     * Introduced and migrated the legacy reverse proxy solution to Solo.io's Gloo API Gateway.
+     * Fully manage the whole platform, from the platform to the business apps through the CI/CD, with Terraform/GitlabCI/ArgoCD/Kustomize using a commmon codebase.
+     * Secured GCP/GKE platform by banishing static credentials (GKE workload identity up to production), introduced private GKE clusters.
+     * Currently working on Open Policy Agent business rules coupling with Kubernetes Service Meshes.
+
+* *2017-2020* **Malt Community / Platform Tech Lead**
     * **Milestones**:
       * Planned and realized the migration of Malt's applications and databases from a bare metal infrastructure to Google Cloud Platform (GCE and GKE).
       * Progressively migrated the Ansible historical codebase to a Terraform-managed codebase.
@@ -76,6 +85,9 @@
 ---
 
 ### Open source contributions
+
+*2020*
+  * [terraform-provider-argocd (Go)](https://github.com/oboukili/terraform-provider-argocd)
 
 *2019*
   * [Vault Discovery (Go)](https://github.com/oboukili/vault-discovery)

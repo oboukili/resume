@@ -41,7 +41,7 @@
 
 ### Experience
 
-* *2020-present* **Keplr / Cloud Engineer**
+* *2020* **Keplr / Cloud Engineer**
    * **Milestones**:
      * Created the company's DevOps CI/CD self-service, allowing product teams to be effectively autonomous and to bootstrap new projects and deploy them up to production within minutes.
      * Designed and implemented a 'scale to 0', secured, fast, cost-effective, and highly concurrent (limitless, up to 250 simultaneous jobs witnessed) CI that scales on-demand, with GitlabCI using GKE preemptible nodes for the whole company's projects (Golang / NodeJS / Terraform).

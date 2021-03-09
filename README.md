@@ -1,16 +1,19 @@
-# Olivier Boukili
+*Je suis "DevOps" et architecte cloud.
+J'ai 11 ans d'expérience en tant qu'administrateur système et cloud engineer, dont 7 ans pendant lesquelles j'ai travaillé pour des startups et scale-ups.*
 
-*Cloud engineer with a strong sysadmin background and a passion for DevSecOps culture and scalability challenges*
+*J'ai eu l'opportunité d'acquérir de l'expérience en architecture sur des plateformes Cloud majeures comme Google Cloud Platform (GCP), avec un focus particulier sur les plateformes de conteneurs Linux (GKE / Kubernetes) et serverless (GCP Cloud Run, GCP Cloud Functions), et d'avoir implémenté et géré jusqu'en production des services techniques à forte valeur ajoutée telles que des API Gateways (solo.io Gloo), la suite Hashicorp (Vault, Consul), ainsi que des plateformes d'intégration/déploiement continus (Gitlab, ArgoCD, Github Actions, CircleCI), en utilisant des outils adaptés et faciles à maintenir et à étendre via le biais de contributions opensource Go/Golang (providers Terraform, plugins Kustomize, contributions ArgoCD, charts Helm ..).*
 
-> Currently interested in cloud scalability challenges, contact me!
+*Très sensible à la performance et à la haute disponibilité applicative, je travaille systématiquement avec les équipes de développement pour prévoir, détecter, analyser et résoudre ce type de problématique.*
+
+*Je m'evertue à rendre accessibles, à rendre pèrennes, et à documenter toutes les solutions d'automatisation que je mets en place. Et surtout à communiquer avec l'ensemble des équipes de développeurs, SRE, ou platform engineers en promouvant une ambiance sympathique, et agréable, comme le définirait la culture "devops" ;) !*
 
 ---
 
-### Technical Skills
+### Stacks techniques
 
 
 **Cloud Providers**
-* Google Cloud (experimented)
+* Google Cloud (Google Professional Architect certification 01/2021)
 * AWS
 
 **Services**
@@ -26,79 +29,125 @@
 * Gloo API Gateway
 * Jaeger Opentracing
 
-**Languages**
+**Langages**
 * Go
 * Python
 
-**Tools:**
+**Outils:**
 * GoLand IDE
 * Terraform
 * Kustomize
 * Gitlab
+* Github
+* CircleCI
 * Ansible
 
 ---
 
-### Experience
+## Experiences
 
-* *2020* **Keplr / Cloud Engineer**
-   * **Milestones**:
-     * Created the company's DevOps CI/CD self-service, allowing product teams to be effectively autonomous and to bootstrap new projects and deploy them up to production within minutes.
-     * Designed and implemented a 'scale to 0', secured, fast, cost-effective, and highly concurrent (limitless, up to 250 simultaneous jobs witnessed) CI that scales on-demand, with GitlabCI using GKE preemptible nodes for the whole company's projects (Golang / NodeJS / Terraform).
-     * Introduced and migrated the legacy reverse proxy solution to Solo.io's Gloo API Gateway, allowing newly published marketplaces to effortlessly support the set of existing business APIs, using Kubernetes label routing scheme. 
-     * Fully managed the whole platform, from the infrastructure to the business apps through the CI/CD, with Terraform / Gitlab CI / ArgoCD/ Kustomize using a commmon codebase.
-     * Secured GCP/GKE platform by banishing static credentials (GKE workload identity up to production), introduced private GKE clusters.
-     * Introduced databases dynamic and transient credentials using Vault without any business application code change.
-     * Contributed to several opensource projects.
+### *2021* **DoiT International / Senior Cloud Architect**
 
-* *2017-2020* **Malt Community / Platform Tech Lead**
-    * **Milestones**:
-      * Planned and realized the migration of Malt's applications and databases from a bare metal infrastructure to Google Cloud Platform (GCE and GKE).
-      * Progressively migrated the Ansible historical codebase to a Terraform-managed codebase.
-      * Implemented CI/CD for the infrastructure side of things using Gitlab pipelines.
-      * Automated and secured all internal application traffic using short-lived dynamic certificates from Hashicorp Vault PKI.
-      * Implemented GitOps continuous delivery flows for every Malt application using ArgoCD.
-      * Integrated Vault as a secure Spring configuration server for every Spring application.
-      * Worked continuously with the security team to achieve optimal DevSecOps practices.
-      * Introduced high availability features on all applications (Spring Boot) and databases (MongoDB, Elasticsearch, Redis) using Hashicorp Consul.
-      * Java 8+11 applications G1GC ideal performance tuning for Kubernetes.
+  * Missions de consulting en architecture Cloud GCP/AWS à des clients globaux.
+  * Contexte international.
 
-* *2014-2017* **Sogelink / Sysadmin**
-  * **Milestones**:
-    * Implemented a highly available centralized logging solution using Graylog.
-    * Worked closely with developers on ActiveMQ broker clustering.
-    * Created the company's technical Disaster Recovery plan.
-    * Oversaw and executed the migration of the company's production data (>200TB) on Hitachi VSP SAN multi site appliances.
-* *2013-2014* **Armée de Terre / Officer**
-* *2010-2013* **Armée de Terre / Telecommunications specialist**
+### *2021* **Wanteeed / Cloud Architect**
+
+| Technos:
+  * Google Cloud Run Fully Managed
+  * Github Actions / CircleCI
+  * Terraform
+  * Cloudflare
+
+| Milestones:
+  * Mission de conseil en architecture cloud et monitoring GCP et implémentation 100% infra-as-code du pipeline CI/CD d'infrastructure Cloudflare/GCP avec Terraform.
+
+
+### *2020* **Sun'R / Cloud Architect**
+
+| Technos:
+  * Scaleway Cloud Provider
+  * Kubernetes / Kapsule
+  * Traefik
+  * Terraform / Kustomize
+
+| Milestones:
+  * Mission de conseil et formation en architecture cloud public et Kubernetes à des fins de prévention de problématiques de montée en charge de trafic et de maintenance.
+
+### *2020* **Keplr / Cloud Engineer**
+
+| Technos:  
+  * Cloud: Google Cloud Platform, Kubernetes, Cloud Run, Linkerd2 Service Mesh
+  * Services: Hashicorp Vault, solo.io Gloo API Gateway
+  * Continuous Integration/Deployment: GitlabCI, ArgoCD, Github Actions, CircleCI
+  * Outils: Terraform, Kustomize, Helm
+  * Bases de données: PostgreSQL, MongoDB, Redis
+  * Documentation: HuGo, MermaidJS
+  * Monitoring: Google Stackdriver, Grafana
+  * Développement: Go
+
+| Milestones: 
+  * Import et management "as code" complet de l'infrastructure existante avec Terraform, ArgoCD, et Kustomize.
+  * Création du self-service DevOps CI/CD avec Gitlab CI et ArgoCD, permettant aux équipes produit de deployer rapidement de nouvelles applications jusqu'en production de manière autonome.
+  * Mise en place d'une CI Gitlab + Kubernetes avec "autoscaling" dynamique suivant la demande pour minimiser le "time-to-market" et réduire les coûts.
+  * Utilisation de solo.io Gloo API Gateway pour permettre des stratégies avancées de routing microservices (délégation de routes, environnements éphémères, tests fault injection...)
+  * Généralisation de l'utilisation de secrets dynamiques "à la demande", expirant dans le temps, pour l'accès aux bases de données pour l'ensemble des applications du parc via Hashicorp Vault.
+  * Contributions open source Go: Gitlab CI runner, Terraform provider Gitlab, Terraform provider ArgoCD.
+
+
+### *2017-2020* **Malt Community / Platform Tech Lead**
+
+| Technos
+  * Cloud: Google Cloud Platform, Kubernetes, OVH, Scaleway
+  * Services: Traefik, Nginx, Hashicorp Vault, Hashicorp Consul, RabbitMQ
+  * Continuous Integration/Deployment: Jenkins, Bamboo, GitlabCI, ArgoCD
+  * Outils: Terraform, Kustomize, Ansible, Packer
+  * Documentation: Mkdocs
+  * Bases de données: PostgreSQL, MongoDB, Redis, Elasticsearch, InfluxDB
+  * Monitoring: Sensu, Prometheus, Telegraf, Grafana
+  * Développement: Go
+
+
+| Milestones:
+  * Mise en place d'une PKI TLS automatisée avec Hashicorp Vault pour sécuriser, identifier, et authentifier les applications Java Spring Boot métier entre elles et les bases de données.
+  * Intégration de Hashicorp Vault en qualité de serveur de configuration Spring Boot.
+  * Migration de l'ancienne infrastructure bare-metal/Openstack OVH vers GCP/Kubernetes (GKE)
+  * "Service Discovery" avec Consul + Spring Cloud Consul sur une infrastructure bare-metal OVH.
+  * APM et outils de tracing (GlowRoot, Jaeger, ...)
+  * Management 100% infra-as-code de l'infrastructure Terraform, ArgoCD, et Kustomize.
+  * Tuning de performance Java 8+11/12 (G1GC/Shenandoah GC), optimisations spécifiques Java avec Docker/Kubernetes.
+  * Contributions open source Go: plugins Kustomize, utilitaires Go.
+
+
+### *2014-2017* **Sogelink / Sysadmin**
+
+| Technos
+  * Infrastructure/Compute: Dell Proliant (multiples datacenters)
+  * Infrastructure/Virtualisation: VMWare ESXi, Xen
+  * Infrastructure/Stockage: SANs Hitachi VSP2xx
+  * Infrastructure/Réseau: Fortinet firewalls, switches FiberChannel/ethernet HP
+  * Services: Asterisk VOIP, Apache2 proxy, ActiveMQ
+  * Continuous Integration/Deployment: Gitlab CI, Jenkins
+  * Outils: Ansible, Puppet, SaltStack
+  * Bases de données: PostgreSQL, MongoDB, Redis, Solr, Elasticsearch, KahaDB
+  * Monitoring: Nagios, Graylog
+  * Développement: Python
+  * Contributions open source Python: module Ansible apache2_mod_proxy
+
+| Milestones:
+  * Migration des scripts Puppet à Ansible
+  * Création du PRA (plan de reprise d'activité) technique de l'entreprise
+  * Astreintes 24/24H 7j/7
+  * Mise à niveau majeure VMWare ESXi sans downtime
+  * Benchmark de performances IO de solutions de stockage (baies SAN Hitachi, Dell / stockage distribué Ceph)
+  * Migration sans downtime de baies de stockage sur 2 sites distincts
+  * Création d'une plateforme de logging avec Graylog et Elasticsearch
 
 ---
 
-### Education
+### Formation
 
-* *2009* [Telecom Sud Paris](https://www.telecom-sudparis.eu/) / Engineering
-* *2006* CPGE Mathematics Lycée Chaptal Saint-Brieuc
-
----
-
-### Publications
-
-*2019*
-  * [DevOps — Retour sur un downtime Redis, Kubernetes en production](https://medium.com/nerds-malt/https-medium-com-nerds-malt-devops-retour-sur-un-downtime-redis-kubernetes-en-production-8cd5bfcc53d) (French)
-  * [A GCP / Kubernetes production migration retrospective](https://medium.com/@boukili.olivier/a-gcp-kubernetes-production-migration-retrospective-part-1-e3e35096073a)
+* *2009* [Telecom Sud Paris](https://www.telecom-sudparis.eu/) / Cursus Ingénieur
+* *2006* CPGE Maths sup/spé TSI Lycée Chaptal Saint-Brieuc
 
 ---
-
-### Open source contributions
-
-*2020*
-  * [terraform-provider-argocd (Go)](https://registry.terraform.io/providers/oboukili/argocd/latest)
-
-*2019*
-  * [Vault Discovery (Go)](https://github.com/oboukili/vault-discovery)
-  * [Vault KV updater (Go)](https://github.com/oboukili/vault-kv-updater)
-  * [Kustomize Checksumer Plugin (Go)](https://github.com/oboukili/checksumer)
-  * [Kustomize SopsDecoder Plugin (Go)](https://github.com/oboukili/sopsdecoder)
-
-*2016*
-  * [Ansible apache2_mod_proxy module (Python)](https://docs.ansible.com/ansible/latest/modules/apache2_mod_proxy_module.html)

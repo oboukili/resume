@@ -1,3 +1,7 @@
+# Olivier Boukili / Senior Cloud Architect
+
+---
+
 *Je suis "DevOps" et architecte cloud.
 J'ai 11 ans d'expérience en tant qu'administrateur système et cloud engineer, dont 7 ans pendant lesquelles j'ai travaillé pour des startups et scale-ups.*
 
@@ -9,11 +13,15 @@ J'ai 11 ans d'expérience en tant qu'administrateur système et cloud engineer, 
 
 ---
 
+### Certifications
+
+* Google Cloud Professional Architect certification (01/2021)
+
 ### Stacks techniques
 
 
 **Cloud Providers**
-* Google Cloud (Google Professional Architect certification 01/2021)
+* Google Cloud Platform
 * AWS
 
 **Services**
@@ -151,3 +159,32 @@ J'ai 11 ans d'expérience en tant qu'administrateur système et cloud engineer, 
 * *2006* CPGE Maths sup/spé TSI Lycée Chaptal Saint-Brieuc
 
 ---
+
+---
+
+### Publications
+
+*2019*
+* [DevOps — Retour sur un downtime Redis, Kubernetes en production](https://medium.com/nerds-malt/https-medium-com-nerds-malt-devops-retour-sur-un-downtime-redis-kubernetes-en-production-8cd5bfcc53d) 
+* [A GCP / Kubernetes production migration retrospective](https://medium.com/@boukili.olivier/a-gcp-kubernetes-production-migration-retrospective-part-1-e3e35096073a)
+
+---
+
+### Open source contributions
+
+*2021*
+* [pdb-pods-owner-discovery (Go)](https://github.com/oboukili/pdb-pods-owners-discovery)
+
+*2020*
+* [terraform-provider-argocd (Go)](https://registry.terraform.io/providers/oboukili/argocd/latest)
+* [gitlab-runner Kubernetes (Go)](https://gitlab.com/gitlab-org/gitlab-runner/-/merge_requests/2117)
+* [terraform-provider-gitlab (Go)](https://github.com/gitlabhq/terraform-provider-gitlab/)
+
+*2019*
+* [Vault Discovery (Go)](https://github.com/oboukili/vault-discovery)
+* [Vault KV updater (Go)](https://github.com/oboukili/vault-kv-updater)
+* [Kustomize Checksumer Plugin (Go)](https://github.com/oboukili/checksumer)
+* [Kustomize SopsDecoder Plugin (Go)](https://github.com/oboukili/sopsdecoder)
+
+*2016*
+* [Ansible apache2_mod_proxy module (Python)](https://docs.ansible.com/ansible/latest/modules/apache2_mod_proxy_module.html)
